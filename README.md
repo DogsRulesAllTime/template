@@ -1,2 +1,2 @@
 # template
-My tempate
+My template
