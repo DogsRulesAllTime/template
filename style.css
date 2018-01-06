@@ -1,84 +1,33 @@
+/* body{
+    margin: 0;
+    padding: 0;
+} */
 /* CLEARFIX class */
 .clearfix:after{
     content: "";
     display: block;
     clear: both;
 }
-body{
-    max-width: 1440px;
-    margin: 0 auto;
-}
+header{
 
+}
 .header{
-    background-color: #9bddd8;
-    background-image: url(header_back.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    min-height: 737px;
-    position: relative;
-    overflow: hidden;
+    /* padding: 10px; */
+    background-color: aqua;
+    /* min-height: 100px; */
 }
-.logo{
-    position: absolute;
-    background-color: red;
-    top: 53px;
-    left: 137px;
-    font-size: 15px;
-}
-nav{
-    background-color: blue;
-    width: auto;
-    text-align: center;
-    position: relative;
-    top: 18px;
+.nav{background-color: bisque;  overflow: hidden; width: 100%; box-sizing: border-box; text-align: center;}
+nav ul{background-color: rgb(153, 115, 69); margin: 0 -2%; box-sizing: border-box; max-width: 1200px;}
+nav ul li{
+    display: inline-block;
+    background-color: rgb(81, 28, 124);
+    padding: 5px 0;
+    margin: 2%;
+    width: 20%;
+    
     box-sizing: border-box;
 }
-.header ul{
-    position: absolute;
-    right: 220px;
-}
-.header ul li {
-    display: inline-block;  
-}
-.header a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    padding: 20px;
-    border: 2px solid transparent;
-}
-.header a:hover{
-    border: 2px solid white;
-    border-radius: 50px;
-}
 
-
-
-.profile{
-    width: 56px;
-    min-height: 44px;
-    /* background-color: bisque; */
-    position: absolute;
-    right: 138px;
-}
-.profile__img{
-    position: absolute;
-    /* top: 4px; */
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background-color: rgb(99, 40, 148);
-}
-.profile__arrow{
-position: absolute;
-width: 0; 
-height: 0; 
-border-top: 7px solid white;
-border-left: 4px solid transparent;
-border-right: 4px solid transparent;
-right: 0;
-top: 50%;
-}
-.profile__arrow:hover{
-    transform: scale(1.2);
+.qq{
+    background-color: blueviolet;
 }
